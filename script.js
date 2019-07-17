@@ -19,22 +19,19 @@
     num -=14;
     num *=5;
     num /=7;
-    num +=1;
-    num -=1;
+    num ++;
+    num --;
     alert(num);    
 
 // №3
- 
     var a=10;
     var b=2;
     var c=5;
     console.log(a + b + c);
 
 // №4
- 
-    var a=17;
-    var b=10;
-    var c = a - b;
+    a=17, b=10;
+    c = a - b;
     var d=7;
     var result = c + d;
     console.log(result);
